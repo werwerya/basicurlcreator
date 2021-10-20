@@ -1,0 +1,31 @@
+yazi1 = " Website Domain Uygulamasına Hoşgeldiniz "
+
+yazi1 = yazi1.center(50, '*')
+
+print(yazi1)
+
+www = "www"
+print("Domain Yapmak İçin Url Giriniz.")
+giris_1 = str(input("Url Giriniz (Uzantı Olmadan) : "))
+
+yapilacak_url = giris_1
+
+print("Bir Uzantı Seçiniz.(Bilimsel bir uzantı değilse web site çalışmaz)")
+giris_2 = str(input("Domain Giriniz : "))
+
+yapilacak_domain = giris_2
+
+yapilacak_url = yapilacak_url.replace(' ','-')
+
+
+print("URL'niz Hazır...")
+print("{}.{}.{}".format(www,yapilacak_url,yapilacak_domain))
+
+
+
+
+
+
+
+
+
